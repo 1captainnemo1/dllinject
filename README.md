@@ -29,3 +29,5 @@ I have purposely not used any encoders as the process is fast enought to load th
 
 Similarly , you need to start a meterpreter reverse handler with specified parameters , to obtain the reverse shell.
 # dllinject
+
+https://www.youtube.com/watch?v=rK7AW9wh5g0
